@@ -14,9 +14,14 @@ public class Element {
         this.value = value;
     }
 
+    public void setValue(int value)
+    {
+        this.value = value;
+    }
+
     public void setNext(Element element)
     {
-        next = element;
+        this.next = element;
     }
 
     public Element getNext()
